@@ -4,7 +4,7 @@ def unsafe?(speed)
   elsif speed > 60
     "Going ""#{speed}"" mph on the freeway would be unsafe"
   else
-    "Going""#{speed}"""
+    "Going""#{speed}""miles per hour"
 end
 
 
