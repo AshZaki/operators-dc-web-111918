@@ -4,6 +4,7 @@ def unsafe?(speed)
     "Going #{speed} mph on the freeway would be unsafe"
   else
     "Going #{speed} miles per hour"
+  end
 end
 
 
