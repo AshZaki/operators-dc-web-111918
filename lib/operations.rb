@@ -1,9 +1,9 @@
 def unsafe?(speed)
  
   if speed < 40 && speed > 60
-    "Going #{speed} mph on the freeway would be unsafe"
+    "true"
   else
-    "Going #{speed} miles per hour"
+    "false"
   end
 end
 
