@@ -1,8 +1,8 @@
 def unsafe?(speed)
   if speed < 40
-    return "Going "{speed}" mph on the freeway would be unsafe"
+    return "Going ""#{speed}"" mph on the freeway would be unsafe"
   elsif speed > 60
-    return "Going "{speed}" mph on the freeway would be unsafe"
+    return "Going ""#{speed}"" "mph on the freeway would be unsafe"
   else
     return "Going"{speed}"miles per hour"
 end
